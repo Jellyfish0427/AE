@@ -217,7 +217,7 @@ print(ssim)
 SSIM: 0.99  
 PSNR: 36.8288
 
-### 11. Compare reconstructed images and original images
+### 11. Check the reconstructed results
 ```js
 original_image = np.reshape(original_image,(1476,50,50,3))
 generated_image = np.reshape(generated_image,(1476,50,50,3))
@@ -231,7 +231,8 @@ for i in range(num):
 ```
 
 ### 12. Add Gaussian noise and print
-Specified the images id as [1-5, 226-230, 841-845, 1471-1475] and demonstrate the generated images of [3, 227, 841, 1475].
+Specified the images id as [1-5, 226-230, 841-845, 1471-1475].  
+Demonstrate the generated images of [3, 227, 841, 1475].  
 ```js
 #start from 0, specifed numbers -1
 choose_num = [0, 1, 2, 3, 4, 225, 226, 227, 228, 229, 840, 841, 842, 843, 844, 1470, 1471, 1472, 1473, 1474]
