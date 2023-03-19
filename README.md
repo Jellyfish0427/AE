@@ -6,8 +6,8 @@ input -> NN Encoder -> code -> NN Decoder -> output
 There are two classes in the dataset, containing female eyes (0) and male eyes (1).  
 The total number of data is 1476 and the shape of each image is (50,50,3).  
 Example:  
-![image](https://user-images.githubusercontent.com/128220508/226117181-b6881e55-f36a-40ae-aa99-f2b31913bad7.png)
-
+![image](https://user-images.githubusercontent.com/128220508/226117181-b6881e55-f36a-40ae-aa99-f2b31913bad7.png)  
+*the dataset file is too big :( 
 
 ```js
 import math
